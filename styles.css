@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -71,6 +71,25 @@ section h2 {
   margin-bottom: 20px;
 }
 
+.event-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.event-item {
+  flex: 1 1 250px;
+  margin-right: 10px;
+  max-width: 300px;
+}
+@media (max-width: 768px) {
+  .event-item {
+    flex: 1 1 100%;
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
 .event-card {
   border: 1px solid #ddd;
   padding: 20px;
@@ -132,6 +151,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  #main-nav {
+    text-align: center;
+    display: none;
+  }
   #hero h2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -144,4 +167,5 @@ footer {
   .container {
     padding: 0 10px;
   }
+
 }
