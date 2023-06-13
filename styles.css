@@ -17,9 +17,20 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #4b0082;
   color: #fff;
   padding: 20px 0;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 nav ul {
@@ -37,7 +48,7 @@ nav ul li a {
 }
 
 #hero {
-  background-image: url(https://source.unsplash.com/1200x800/?nature);
+  background-image: url(https://source.unsplash.com/1200x800/?party);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -49,7 +60,7 @@ nav ul li a {
 }
 
 #hero h2 {
-  font-size: 36px;
+  font-size: 3rem;
   margin-bottom: 20px;
 }
 
@@ -57,9 +68,17 @@ nav ul li a {
   display: inline-block;
   background-color: #333;
   color: #fff;
-  padding: 10px 20px;
+  padding: 1rem 2.5rem;
   border-radius: 5px;
   text-decoration: none;
+  border: 0px;
+}
+.btn-cta {
+  margin-top: 2rem;
+  font-size: 3rem;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #f90;
 }
 
 section {
@@ -122,7 +141,7 @@ section h2 {
 }
 
 footer {
-  background-color: #333;
+  background-color: #4b0082;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -167,5 +186,4 @@ footer {
   .container {
     padding: 0 10px;
   }
-
 }
